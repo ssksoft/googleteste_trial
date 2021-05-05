@@ -6,11 +6,11 @@ TEST(Test1, test11)
     ASSERT_EQ(1, 1);
 }
 
-// TEST(FactorialTest, Negative)
-// {
-//     EXPECT_EQ(1, factorial(-5));
-//     EXPECT_EQ(1, factorial(-10));
-// }
+TEST(FactorialTest, Negative)
+{
+    EXPECT_EQ(1, factorial(-5));
+    EXPECT_EQ(1, factorial(-10));
+}
 
 // TEST(FactorialTest, Zero)
 // {
